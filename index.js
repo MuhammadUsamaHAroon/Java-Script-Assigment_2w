@@ -181,80 +181,165 @@
 // array[0]="Bangladesh"
 // array[1]="India"
 // array[6]="china"
-console.log(array)
+// console.log(array)
 
 
 
-var array=["boren", "in", 25]
-console.log(array)
-array.push("November", 2001)
-console.log(array)
-array.pop()
-console.log(array)
-array.unshift("Usama", "was")
-console.log(array)
-array.push(2001)
-console.log(array)
-array.splice(1,3)
-console.log(array)
-array.splice(1,0, "was", "born", "in")
-console.log(array)
-var newarray=array.slice(0,7)
-console.log(newarray)
-var stringarray=array.toString()
-console.log(stringarray)
+// var array=["boren", "in", 25]
+// console.log(array)
+// array.push("November", 2001)
+// console.log(array)
+// array.pop()
+// console.log(array)
+// array.unshift("Usama", "was")
+// console.log(array)
+// array.push(2001)
+// console.log(array)
+// array.splice(1,3)
+// console.log(array)
+// array.splice(1,0, "was", "born", "in")
+// console.log(array)
+// var newarray=array.slice(0,7)
+// console.log(newarray)
+// var stringarray=array.toString()
+// console.log(stringarray)
 
-console.log(newarray.indexOf(2001))
-var arr=[]
-arr[0]="Usama"
-arr[1]="was"
-arr[2]="born"
-arr[3]="in"
-arr[4]=25
-arr[5]="November"
-arr[6]=2001
-console.log(arr)
+// console.log(newarray.indexOf(2001))
+// var arr=[]
+// arr[0]="Usama"
+// arr[1]="was"
+// arr[2]="born"
+// arr[3]="in"
+// arr[4]=25
+// arr[5]="November"
+// arr[6]=2001
+// console.log(arr)
 
 // FOR LOOP
 
-for(var i=0;i<=5;i++){
-    console.log(i)
+// for(var i=0;i<=5;i++){
+//     console.log(i)
+// }
+
+// var num=[1,2,3,4,5,6,7,8.9,12,22,23,33,45,56,67,70]
+// for( var i=0;i<num.length;i++)
+//     if(num[i]%2===0){
+//     console.log(num[i])
+
+
+// switch (new Date().getDay()) {
+//     case 0:
+//       day = "Sunday";
+//       break;
+//     case 1:
+//       day = "Monday";
+//       break;
+//     case 2:
+//        day = "Tuesday";
+//       break;
+//     case 3:
+//       day = "Wednesday";
+//       break;
+//     case 4:
+//       day = "Thursday";
+//       break;
+//     case 5:
+//       day = "Friday";
+//       break;
+//     case 6:
+//       day = "Saturday";
+//   }
+
+
+// var studentName=prompt('Enter your Name')
+// var reversed=' '
+// for(let i=studentName.length-1;i>=0;i--){
+// reversed=reversed+studentName[1]
+// console.log(reversed)
+// }
+
+// for(var)
+
+
+// for(var i=7;i>0;i--){
+//   str=' '
+//   for(var j=i;j<=7;j++){
+//   str+='*'
+// }
+// console.log(str)
+// }
+
+// for(var i=1;i<=7;i){
+//   str+='*'
+//   for(j=7;j>0;j--){
+//   str=''
+//   }
+//   console.log(str)
+// }
+
+// for(var i=7;i>0;i++){
+//   str=' '
+//   for(var j=i;j<=7;j--){
+//   str+='*'
+// }
+// console.log(str)
+// }
+
+// var num=Math.random()*10
+// var num1=Math.round(num)
+// // console.log(num1)
+// for(i=1;i<=10;i++){
+//   console.log(num1+' x '+i+" = "+num1*i)
+// }
+// let nam=prompt()
+// // console.log(nam.charAt())
+// for(i=0;i<=nam.length-1;i++){
+// console.log(i)
+
+// }
+
+var team1=prompt('Enter your 1st Team Name')
+var team2=prompt('Enter your 2nd Team Name')
+
+var numberofover=+prompt('Enter the number of Overs')
+
+var toss=Math.random ()*10
+var roundetoss=Math.round(toss)
+console.log(roundetoss)
+
+if(roundetoss<5){
+  alert(team1+'have won the toss &  elected to bat first')
+}
+else{
+  alert(team2+'have won the toss & elected to bat first')
 }
 
-var num=[1,2,3,4,5,6,7,8.9,12,22,23,33,45,56,67,70]
-for( var i=0;i<num.length;i++)
-    if(num[i]%2===0){
-    console.log(num[i])
+var score=0
+var overs=0
+var wickets=0
 
+alert('Lets Play')
+for(var i=1;i<=numberofover;i++){
+  for(var j=1;j<=6;j++){
+    var bowl=Math.random()*7
+    var newbowl=Math.round(bowl)
+    Math.round(bowl)
+if(newbowl===0){
+  wickets=wickets+1
+  alert('HOWZAT!!! thats a wicket ')
 }
 
-let name=['my', 'name', 'is', 'Usama']
-let string=name.join(' ')
-
-console.log(string)
-
-
-var naam=prompt("Enter Your Name")
-for(var i=0;i<naam.length;i++)
-if(naam===i){
-    console.log(naam)
+else if(newbowl===1 || newbowl===2 || newbowl===3 || newbowl===4 || newbowl===5 || newbowl===6){
+  score=score+newbowl
+alert(newbowl+'runs scored')
 }
-var num=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
-for(var i=0;i<num.length;i++)
-if(num[i]%3===0){
-    console.log(num[i])
+else if(newbowl===4 || newbowl===6){
+  alert('WOWW!!thats a Boundry')
 }
-var num1=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
-for(var i=0;i<num1.length;i++)
-if(num1[i]%2!=0){
-    console.log(num1[i])
 }
+over=overs+1
+var wickets=0
+alert('The total Score at the end of '+1+'Overs'+'is'+score+'/'+wickets)
+  };
 
-var  num2=[23,45,12,11,67,89,100]
-for(var i=0;i<num.length;i++)
-if(num2[i]>89){
-    console.log(num2[i])
-}
-
-
-
+alert()
