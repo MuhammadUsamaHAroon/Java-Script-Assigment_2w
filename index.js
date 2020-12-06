@@ -386,24 +386,42 @@
 // console.log(dateTime)
 
 
-var firstName=prompt('Enter your First Name:')
-var lastName=prompt('Enter your Last Name:')
-var id=Math.round(Math.random()*10)
-var year=prompt('Your Year:')
-var markobt=prompt('Your Mark Obtain')
-var totalmark=500
-var percentage=markobt/totalmark*100
+// var firstName=prompt('Enter your First Name:')
+// var lastName=prompt('Enter your Last Name:')
+// var id=Math.round(Math.random()*10)
+// var year=prompt('Your Year:')
+// var markobt=prompt('Your Mark Obtain')
+// var totalmark=500
+// var percentage=markobt/totalmark*100
 
-var student ={  
-firstName,
-lastName,
-id,
-year,
-markobt,
-totalmark,
-percentage,
+// var student ={  
+// firstName,
+// lastName,
+// id,
+// year,
+// markobt,
+// totalmark,
+// percentage,
+// }
+// console.log(student)
+// console.log(percentage+' Percentage of '+firstName+' Passed in  the year '+year)
+var cars=[
+    {name:'Mehran',brand:'Suzuki',year:2019,enginecc:800},
+    {name:'Lammorghni',brand:'Honda',year:2020,enginecc:1800},
+    {name:'Porado',brand:'Suzuki',year:2015,enginecc:2800}
+]
+console.log(cars)
+cars.push({name:'Lammorghni',brand:'Honda',year:2020,enginecc:1800},
+             {name:'Porado',brand:'Suzuki',year:2015,enginecc:2800}
+)
+// for(var i=0;i<cars.length;i++){
+//     console.log(cars[i].brand+" "+cars[i].name)
+
+// }
+let suzuki=[]
+let toyota=[]
+for(let i=0;i<cars.length;i++){
+if(cars.name==='Suzuki'){
+console.log(cars[i].name)
+}    
 }
-console.log(student)
-console.log(percentage+' Percentage of '+firstName+' Passed in  the year '+year)
-
-
