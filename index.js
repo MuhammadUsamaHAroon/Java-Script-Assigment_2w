@@ -311,7 +311,7 @@
 // var roundetoss=Math.round(toss)
 // console.log(roundetoss)
 
-// if(roundetoss<5){
+// if(roundetoss<5){        
 //   alert(team1+' have won the toss &  elected to bat first')
 // }
 // else{
@@ -381,9 +381,29 @@
 
 // alert(toss)
 
-var rightnow=new Date()
+// var dateTime=new Date()
 
-console.log(rightnow)
+// console.log(dateTime)
 
-var today=rightnow.getDate()
-console.log(today)
+
+var firstName=prompt('Enter your First Name:')
+var lastName=prompt('Enter your Last Name:')
+var id=Math.round(Math.random()*10)
+var year=prompt('Your Year:')
+var markobt=prompt('Your Mark Obtain')
+var totalmark=500
+var percentage=markobt/totalmark*100
+
+var student ={  
+firstName,
+lastName,
+id,
+year,
+markobt,
+totalmark,
+percentage,
+}
+console.log(student)
+console.log(percentage+' Percentage of '+firstName+' Passed in  the year '+year)
+
+
