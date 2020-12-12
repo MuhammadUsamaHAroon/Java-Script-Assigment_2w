@@ -414,10 +414,10 @@ console.log(cars)
 cars.push({name:'Lammorghni',brand:'Honda',year:2020,enginecc:1800},
              {name:'Porado',brand:'Suzuki',year:2015,enginecc:2800}
 )
-// for(var i=0;i<cars.length;i++){
-//     console.log(cars[i].brand+" "+cars[i].name)
+for(var i=0;i<cars.length;i++){
+    console.log(cars[i].brand+" "+cars[i].name)
 
-// }
+}
 let suzuki=[]
 let toyota=[]
 for(let i=0;i<cars.length;i++){
@@ -425,3 +425,25 @@ if(cars.name==='Suzuki'){
 console.log(cars[i].name)
 }    
 }
+
+var num1=+prompt('Enter the first Number:')
+var num2=+prompt('Enter the second Number:')
+var sign=prompt('Enter the operation to perform:')
+function calculate(a,b,c){
+if(c === "+"){
+    alert(a+b)
+}
+
+else if(c==="-"){
+    alert(a-b)
+}
+else if(c==="x"){
+    alert(a*b)
+}
+else if(c==="/"){
+    alert(a/b)
+}
+
+}
+calculate(num1,num2,sign)
+
