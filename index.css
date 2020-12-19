@@ -17,9 +17,100 @@
    background: #ddd;
 } */
 
-.container{
-   display: grid;
+/* .container{ */
+   /* display: grid;
    height:100vh;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+} */
+
+
+/* ======== */
+/* Signup Start*/
+/* ======== */
+
+.Heading{
+   color:red;
+
+}
+
+.h1{
+   margin-left: 13rem;
+   margin-top: 5rem;
+   font-size: 25px;
+}
+.card{
+   background-color: black;
+   border: none;
+   opacity: 0.8;
+color:red;
+  margin-top: 8rem;
+   margin-left: 10rem;
+}
+
+.input-signup{
+   border-top:none ;
+   margin-top: 1rem;
+background-color: gray;
+
+}
+
+.input-password{
+   margin-top: 4rem;
+}
+
+.button{
+   margin-left: 17rem;
+}
+.card:hover{
+   box-shadow: 4px 4px 4px 4px;
+}
+   
+   .Footer{
+      margin-bottom: 2rem;
+   }
+.h1:hover{
+   color: black;
+}
+/* ========= */
+/* Login Start*/
+/* ========= */
+.Heading-login{
+   height: 5rem;
+}
+
+.h2{
+   margin-left: 13rem;
+   margin-top:5rem;
+   color: yellow;
+}
+.h2:hover{
+   color: white;
+}
+
+.card-login{
+   color: blue;
+   background-color: black;
+   border: none;
+   opacity: 0.8;
+  margin-top: 8rem;
+   margin-left: 10rem;
+}
+
+.card-login:hover{
+   box-shadow: 4px 4px 4px 4px;
+}
+.input-signup-login{
+   margin-top: 4rem;
+}
+.input-password-login{
+   margin-top: 4rem;
+}
+
+.button-login{
+   margin-top: 5rem;
+   margin-left: 17rem;
+}
+.Footer-login{
+   margin-bottom: 2rem;
 }
