@@ -405,45 +405,73 @@
 // }
 // console.log(student)
 // console.log(percentage+' Percentage of '+firstName+' Passed in  the year '+year)
-var cars=[
-    {name:'Mehran',brand:'Suzuki',year:2019,enginecc:800},
-    {name:'Lammorghni',brand:'Honda',year:2020,enginecc:1800},
-    {name:'Porado',brand:'Suzuki',year:2015,enginecc:2800}
-]
-console.log(cars)
-cars.push({name:'Lammorghni',brand:'Honda',year:2020,enginecc:1800},
-             {name:'Porado',brand:'Suzuki',year:2015,enginecc:2800}
-)
-for(var i=0;i<cars.length;i++){
-    console.log(cars[i].brand+" "+cars[i].name)
+// var cars=[
+//     {name:'Mehran',brand:'Suzuki',year:2019,enginecc:800},
+//     {name:'Lammorghni',brand:'Honda',year:2020,enginecc:1800},
+//     {name:'Porado',brand:'Suzuki',year:2015,enginecc:2800}
+// ]
+// console.log(cars)
+// cars.push({name:'Lammorghni',brand:'Honda',year:2020,eng
+// inecc:1800},
+//              {name:'Porado',brand:'Suzuki',year:2015,enginecc:2800}
+// )
+// for(var i=0;i<cars.length;i++){
+//     console.log(cars[i].brand+" "+cars[i].name)
 
-}
-let suzuki=[]
-let toyota=[]
-for(let i=0;i<cars.length;i++){
-if(cars.name==='Suzuki'){
-console.log(cars[i].name)
-}    
+// }
+// let suzuki=[]
+// let toyota=[]
+// for(let i=0;i<cars.length;i++){
+// if(cars.name==='Suzuki'){
+// console.log(cars[i].name)
+// }    
+// }
+
+// var num1=+prompt('Enter the first Number:')
+// var num2=+prompt('Enter the second Number:')
+// var sign=prompt('Enter the operation to perform:')
+// function calculate(a,b,c){
+// if(c === "+"){
+//     alert(a+b)
+// }
+
+// else if(c==="-"){
+//     alert(a-b)
+// }
+// else if(c==="x"){
+//     alert(a*b)
+// }
+// else if(c==="/"){
+//     alert(a/b)
+// }
+
+// }
+// calculate(num1,num2,sign)
+
+var inputsignup
+var passwordsignup
+
+function signup(){
+     inputsignup = document.getElementById("email1").value
+    console.log(input)
+     passwordsignup = document.getElementById("password1").value
+    console.log(password)
 }
 
-var num1=+prompt('Enter the first Number:')
-var num2=+prompt('Enter the second Number:')
-var sign=prompt('Enter the operation to perform:')
-function calculate(a,b,c){
-if(c === "+"){
-    alert(a+b)
+
+
+function login(){
+    var input = document.getElementById("email").value
+    console.log(input)
+    var password = document.getElementById("password").value
+    console.log(password)
 }
 
-else if(c==="-"){
-    alert(a-b)
+if(inputsignup === input && passwordsignup === password){
+    alert('You are login')
 }
-else if(c==="x"){
-    alert(a*b)
-}
-else if(c==="/"){
-    alert(a/b)
+else{
+    alert('Wrong Password')
 }
 
-}
-calculate(num1,num2,sign)
 
