@@ -35,15 +35,17 @@
 }
 
 .h1{
+   color: black;
    margin-left: 13rem;
-   margin-top: 5rem;
+   margin-top: 3rem;
    font-size: 25px;
 }
 .card{
-   background-color: black;
-   border: none;
-   opacity: 0.8;
-color:red;
+   border-radius:15px  ;
+
+   border:solid black 1px;
+   /* opacity: 0.9; */
+color:black;
   margin-top: 8rem;
    margin-left: 10rem;
 }
@@ -51,15 +53,21 @@ color:red;
 .input-signup{
    border-top:none ;
    margin-top: 1rem;
-background-color: gray;
-
+background-color:;
+padding-left: 7rem;
+padding-right: 7rem;
 }
 
 .input-password{
    margin-top: 4rem;
+   padding-left: 7rem;
+padding-right: 7rem;
 }
 
 .button{
+   height: 50px;
+   width: 80px;
+   border-radius: 15px; 
    margin-left: 17rem;
 }
 .card:hover{
@@ -76,39 +84,47 @@ background-color: gray;
 /* Login Start*/
 /* ========= */
 .Heading-login{
-   height: 5rem;
+   : 5rem;
 }
 
 .h2{
    margin-left: 13rem;
-   margin-top:5rem;
-   color: yellow;
+   margin-top:rem;
+   color: black;
 }
 .h2:hover{
    color: white;
 }
 
 .card-login{
-   color: blue;
-   background-color: black;
-   border: none;
-   opacity: 0.8;
+   padding-top: 4rem;
+   border-radius: 15px;
+   background-color: lightskyblue;
+border: solid black 1px;
+   /* opacity: 0.9; */
   margin-top: 8rem;
    margin-left: 10rem;
 }
 
-.card-login:hover{
+/* .card-login:hover{
    box-shadow: 4px 4px 4px 4px;
-}
+} */
 .input-signup-login{
-   margin-top: 4rem;
+   padding-left: 7rem;
+padding-right: 7rem;
+   margin-top: 2rem;
 }
 .input-password-login{
-   margin-top: 4rem;
+   padding-left: 7rem;
+padding-right: 7rem;
+   margin-top: 2rem;
 }
 
 .button-login{
-   margin-top: 5rem;
+   height: 50px;
+   width: 80px;
+   border-radius: 15px;
+   margin-top: 3rem;
    margin-left: 17rem;
 }
 .Footer-login{

@@ -17,23 +17,35 @@ background-size: cover;">
     <div class="container main-dive">
         <div class="card-login" style="max-width: 40rem;height: 30rem;">
           <!-- <div class="card-header bg-transparent border-success Heading"></div> -->
-          <div class="Heading-login"><h1 class="h2" style="font-size: 4rem;">Login</h1></div>
+          <div class="Heading-login"><h1 class="h2" style="font-size: 4rem;">LOG IN</h1></div>
          
           <div class="card-body">
         
             <div class="input-group flex-nowrap input-signup-login">
-              <span class="input-group-text" id="addon-wrapping">@</span>
-              <input type="email" class="form-control email-input" placeholder="Email" aria-label="Username" aria-describedby="addon-wrapping">
+              <!-- <span class="input-group-text" id="addon-wrapping">@</span> -->
+              <input style="background-color:black ;color:white ;"
+               type="email"
+                class="form-control email-input"
+                 placeholder="Email"
+                  aria-label="Username"
+                   aria-describedby="addon-wrapping"
+                   id="email-login">
             </div>
           
             <div class="input-group flex-nowrap input-password-login">
               <!-- <span class="input-group-text" id="addon-wrapping">@</span> -->
-              <input type="password" class="form-control password-input" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping">
+              <input style="background-color: black; color: white;" 
+               type="password"
+                class="form-control password-input" 
+                placeholder="Password" 
+                aria-label="Username"
+                 aria-describedby="addon-wrapping"
+                 id="password-login">
             </div>
         
             <p class="card-text"></p>
           </div>
-          <div class="Footer-login"><button type="button" class="btn btn-danger button-login">Login</button</div>
+          <div class="Footer-login"><button onclick="login()" type="button" class="btn btn-danger button-login">Login</button</div>
         </div>
         </div>
         

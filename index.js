@@ -448,30 +448,39 @@
 // }
 // calculate(num1,num2,sign)
 
-var inputsignup
-var passwordsignup
+// var inputsignup
+// var passwordsignup
 
-function signup(){
-     inputsignup = document.getElementById("email1").value
-    console.log(input)
-     passwordsignup = document.getElementById("password1").value
-    console.log(password)
+var usersignup={
+emailId,
+password,
 }
 
+function signup(usersignup){
+   var input_signup = document.getElementById("input-email").value
+   var  input_password = document.getElementById("input-password").value
+    console.log(input_signup,input_password)
+    if(input_signup){
+        usersignup[emailId]=input_signup
+        usersignup[password]=input_password
+        alert('Correct Password.')
+    }
+    else{
+        alert('Wrong Password')
+    }
+}
 
 
 function login(){
-    var input = document.getElementById("email").value
-    console.log(input)
-    var password = document.getElementById("password").value
-    console.log(password)
+    var email_login = document.getElementById("email-login").value
+    var password_login = document.getElementById("password-login").value
+    console.log(email_login,password_login)
+    
 }
 
-if(inputsignup === input && passwordsignup === password){
-    alert('You are login')
-}
-else{
-    alert('Wrong Password')
-}
+
+
+
+
 
 
