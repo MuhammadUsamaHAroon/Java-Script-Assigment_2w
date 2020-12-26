@@ -451,36 +451,54 @@
 // var inputsignup
 // var passwordsignup
 
-var usersignup={
-emailId,
-password,
-}
+// var usersignup={
+// emailId,
+// password,
+// }
 
-function signup(usersignup){
-   var input_signup = document.getElementById("input-email").value
-   var  input_password = document.getElementById("input-password").value
-    console.log(input_signup,input_password)
-    if(input_signup){
-        usersignup[emailId]=input_signup
-        usersignup[password]=input_password
-        alert('Correct Password.')
-    }
-    else{
-        alert('Wrong Password')
-    }
-}
+// function signup(usersignup){
+//    var input_signup = document.getElementById("input-email").value
+//    var  input_password = document.getElementById("input-password").value
+//     console.log(input_signup,input_password)
+//     if(input_signup){
+//         usersignup[emailId]=input_signup
+//         usersignup[password]=input_password
+//         alert('Correct Password.')
+//     }
+//     else{
+//         alert('Wrong Password')
+//     }
+// }
 
 
-function login(){
-    var email_login = document.getElementById("email-login").value
-    var password_login = document.getElementById("password-login").value
-    console.log(email_login,password_login)
+// function login(){
+//     var email_login = document.getElementById("email-login").value
+//     var password_login = document.getElementById("password-login").value
+//     console.log(email_login,password_login)
     
+// }
+
+
+// var d1=document.getElementById("main")
+// var h1= document.createElement("h1")
+// h1.innerHTML= "Java Script Topics"
+// d1.appendChild(h1)
+
+function Submit(){
+     let arr = [];
+     var inp = document.getElementById("user-people").value;
+
+arr.push(inp);
+console.log(arr);
+var order = document.getElementById("namelist");
+for(var i = 0;i < arr.length;i++){
+var list = document.createElement("li");
+var br = document.createElement("br");
+list.innerHTML = arr[i];
+order.appendChild(list)
+order.appendChild(br)
 }
-
-
-
-
-
+document.getElementById("user-people").value= " "
+}
 
 
