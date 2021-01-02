@@ -484,21 +484,50 @@
 // h1.innerHTML= "Java Script Topics"
 // d1.appendChild(h1)
 
-function Submit(){
-     let arr = [];
-     var inp = document.getElementById("user-people").value;
+// function Submit(){
+//      let arr = [];
+//      var inp = document.getElementById("user-people").value;
 
-arr.push(inp);
-console.log(arr);
-var order = document.getElementById("namelist");
-for(var i = 0;i < arr.length;i++){
-var list = document.createElement("li");
-var br = document.createElement("br");
-list.innerHTML = arr[i];
-order.appendChild(list)
-order.appendChild(br)
-}
-document.getElementById("user-people").value= " "
-}
+// arr.push(inp);
+// console.log(arr);
+// var order = document.getElementById("namelist");
+// for(var i = 0;i < arr.length;i++){
+// var list = document.createElement("li");
+// var br = document.createElement("br");
+// list.innerHTML = arr[i];
+// order.appendChild(list)
+// order.appendChild(br)
+// }
+// document.getElementById("user-people").value= " "
+// }
 
+var dive = document.getElementById("main")
+var heading = document.createElement("h1")
+dive.appendChild(heading)
 
+heading.innerHTML="Table"
+heading.style.color="Blue"
+var table = document.createElement("table")
+table.style.border=("1px solid black")
+dive.appendChild(table)
+var tr = document.createElement("tr")
+table.appendChild(tr)
+
+var th1 = document.createElement("th")
+var th2 = document.createElement("th")
+var th3 = document.createElement("th")
+tr.appendChild(th1)
+th1.innerHTML="Name"
+tr.appendChild(th2)
+th2.innerHTML = "Subject"
+tr.appendChild(th3)
+th3.innerHTML = "Marks"
+var td1 = document.createElement("td")
+var td2 = document.createElement("td")
+var td3 = document.createElement("td")
+tr.appendChild(td1)
+td1.innerHTML = "Usama"
+tr.appendChild(td2)
+td2.innerHTML = "Rafay"
+tr.appendChild(td3)
+td3.innerHTML = "Taha"
