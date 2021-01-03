@@ -460,7 +460,7 @@
 //    var input_signup = document.getElementById("input-email").value
 //    var  input_password = document.getElementById("input-password").value
 //     console.log(input_signup,input_password)
-//     if(input_signup){
+//     if(input_signup){   
 //         usersignup[emailId]=input_signup
 //         usersignup[password]=input_password
 //         alert('Correct Password.')
@@ -501,33 +501,116 @@
 // document.getElementById("user-people").value= " "
 // }
 
-var dive = document.getElementById("main")
-var heading = document.createElement("h1")
-dive.appendChild(heading)
+// var dive = document.getElementById("main")
+// var heading = document.createElement("h1")
+// dive.appendChild(heading)
 
-heading.innerHTML="Table"
-heading.style.color="Blue"
-var table = document.createElement("table")
-table.style.border=("1px solid black")
-dive.appendChild(table)
-var tr = document.createElement("tr")
-table.appendChild(tr)
+// heading.innerHTML="Table"
+// heading.style.color="Blue"
+// var table = document.createElement("table")
+// table.style.border=("1px solid black")
+// dive.appendChild(table)
+// var tr1 = document.createElement("tr")
+// table.appendChild(tr)
 
-var th1 = document.createElement("th")
-var th2 = document.createElement("th")
-var th3 = document.createElement("th")
-tr.appendChild(th1)
-th1.innerHTML="Name"
-tr.appendChild(th2)
-th2.innerHTML = "Subject"
-tr.appendChild(th3)
-th3.innerHTML = "Marks"
-var td1 = document.createElement("td")
-var td2 = document.createElement("td")
-var td3 = document.createElement("td")
-tr.appendChild(td1)
-td1.innerHTML = "Usama"
-tr.appendChild(td2)
-td2.innerHTML = "Rafay"
-tr.appendChild(td3)
-td3.innerHTML = "Taha"
+// var th1 = document.createElement("th")
+// var th2 = document.createElement("th")
+// var th3 = document.createElement("th")
+// tr.appendChild(th1)
+// th.innerHTML="Name"
+// tr.appendChild(th2)
+// th2.innerHTML = "Subject"
+// tr.appendChild(th3)
+// th3.innerHTML = "Marks"
+// var tr1
+
+
+// var td1 = document.createElement("td")
+// var td2 = document.createElement("td")
+// var td3 = document.createElement("td")
+
+// tr.appendChild(td1)
+// td1.innerHTML = "Usama"
+// tr.appendChild(td2)
+// td2.innerHTML = "Rafay"
+// tr.appendChild(td3)
+// td3.innerHTML = "Taha"
+
+// function 
+// {
+// var onbutton = document.getElementById("open-button")
+
+// }
+var naam=+prompt("Enter the name of month:")
+
+// switch (naam) {
+//     case  "January":
+//         alert("First month")
+//         break;
+//         case 1<=32:
+//         alert("First month")
+//         break;
+//         case "Fabrary":
+//         alert("Second month")
+//         break;
+
+//     default:
+//         break;
+// }
+
+// if(naam === 1>=32 && naam === "January"){
+//     alert('first month')
+// }
+// else if(naam === 1>32 && naam === "Febrary"){
+//     alert('second month')
+// }
+
+var a=["Usama"];
+console.log(typeof(a),a);
+// console.log("<br>")
+var b = {
+    name:"Muntaha",
+    country:"Pakistan"
+};
+
+console.log(typeof(b),b);
+
+var a = 10000;
+var b = 990000;
+var c = a + b;
+console.log(c)
+
+var a = 10000;
+var b = 990000;
+var c = a - b;
+console.log(c)
+
+var a = 10000;
+var b = 990000;
+var c = a * b;
+console.log(c)
+
+var a = 10000;
+var b = 990000;
+var c = a / b;
+console.log(c)
+
+var a = 10000;
+var b = 990000;
+var c = a % b;
+console.log(c)
+
+var a = 2;
+var b = 3;
+var c = a ** b;
+console.log(c)
+
+var a = 10;
+a++;
+
+console.log(a)
+
+var a = 10;
+a--;
+
+console.log(a)
