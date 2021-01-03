@@ -541,7 +541,7 @@
 // var onbutton = document.getElementById("open-button")
 
 // }
-var naam=+prompt("Enter the name of month:")
+// var naam=+prompt("Enter the name of month:")
 
 // switch (naam) {
 //     case  "January":
@@ -564,16 +564,16 @@ var naam=+prompt("Enter the name of month:")
 // else if(naam === 1>32 && naam === "Febrary"){
 //     alert('second month')
 // }
-
-var a=["Usama"];
-console.log(typeof(a),a);
+console.time()
+var a=["Usama","Muntaha"];
+console.table(a);
 // console.log("<br>")
 var b = {
     name:"Muntaha",
     country:"Pakistan"
 };
 
-console.log(typeof(b),b);
+console.table(b);
 
 var a = 10000;
 var b = 990000;
@@ -607,10 +607,60 @@ console.log(c)
 
 var a = 10;
 a++;
-
 console.log(a)
 
 var a = 10;
-a--;
-
+a-- ;
 console.log(a)
+
+// Asssignmebt operators
+
+var a = 10;
+var b = 20;
+a +=b;
+console.log(a)
+console.error("This is a wrong ")
+console.error("This is a wrong ")
+console.error("This is a wrong ")
+console.error("This is a wrong ")
+console.error("This is a wrong ")
+console.error("This is a wrong ")
+console.error("This is a wrong ")
+console.error("This is a wrong ")
+var a = 10;
+var b = 20;
+a -=b;
+console.log(a)
+
+var a = 10;
+var b = 20;
+a *=b;
+console.log(a)
+
+var a = 10;
+var b = 20;
+a /=b;
+console.log(a)
+
+var a = 10;
+var b = 20;
+a %=b;
+console.log(a)
+console.warn("This is a wrong ")
+var a = 10;
+var b = 2;
+a **=b;
+console.log(a)
+
+var a = 10;
+var b = 20;
+a +=b;
+console.log(a)
+console.timeEnd()
+
+console.log()
+console.table()
+console.error()
+console.warn()
+console.timeEnd()
+console.timeEnd()
