@@ -619,14 +619,14 @@ var a = 10;
 var b = 20;
 a +=b;
 console.log(a)
-console.error("This is a wrong ")
-console.error("This is a wrong ")
-console.error("This is a wrong ")
-console.error("This is a wrong ")
-console.error("This is a wrong ")
-console.error("This is a wrong ")
-console.error("This is a wrong ")
-console.error("This is a wrong ")
+// console.error("This is a wrong ")
+// console.error("This is a wrong ")
+// console.error("This is a wrong ")
+// console.error("This is a wrong ")
+// console.error("This is a wrong ")
+// console.error("This is a wrong ")
+// console.error("This is a wrong ")
+// console.error("This is a wrong ")
 var a = 10;
 var b = 20;
 a -=b;
@@ -646,7 +646,7 @@ var a = 10;
 var b = 20;
 a %=b;
 console.log(a)
-console.warn("This is a wrong ")
+// console.warn("This is a wrong ")
 var a = 10;
 var b = 2;
 a **=b;
@@ -664,3 +664,9 @@ console.error()
 console.warn()
 console.timeEnd()
 console.timeEnd()
+
+var a = 60;
+var b = 50;
+console.log( (a >= b)? "this is true statement": "this is false statement")
+
+var week.
