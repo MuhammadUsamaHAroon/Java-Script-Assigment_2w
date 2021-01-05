@@ -669,4 +669,112 @@ var a = 60;
 var b = 50;
 console.log( (a >= b)? "this is true statement": "this is false statement")
 
-var week.
+var day = 10;
+switch (day) {
+    case (day === 0):
+
+        console.log("monday")
+    
+        break;
+        case (day === 1):
+        
+            console.log("tuesday")
+        
+            break;
+            case (day === 2):
+        
+                console.log("wednesday")
+            
+                break;
+                case (day === 3):
+        
+                    console.log("thursday")
+                
+                    break;
+                    case (day === 4):
+        
+                        console.log("friday")
+                    
+                        break;
+                        case (day === 5):
+        
+                            console.log("saturday")
+                        
+                            break;
+                            case (day === 6):
+        
+                                console.log("sunday")
+                            
+                                break;
+
+    default:
+        break;
+}
+
+function signUp(){
+    console.log("signUp Button")
+}
+signUp();
+function marks(a, b){
+    console.log(a % b)
+}
+marks(10, 2)
+
+function fullName(first_name, last_name){
+    console.log(first_name + last_name)
+}
+fullName("Muntaha" ," "+ "Usama");
+
+function exact(a, b){
+var can = (a + "-"+  b)
+return can;
+
+}
+var far = exact("Farjumad", "Ranghar")
+console.log(far)
+
+function fullname(a, b){
+    var name = a + " " + b;
+    return name;
+}
+var c = fullname("Usama", "Haroon");
+console.log(c)
+
+function subMarks(math, Chemistry, physics, english, urdu, islamiyat,){
+    var subjects = (math + Chemistry + physics + english + urdu + islamiyat);
+    return subjects;
+}
+var totalMarks = subMarks(75, 65, 84, 70, 82, 50);
+console.log(totalMarks);
+
+function percentage(total){
+    var per = total/600*100;
+    console.log(per)
+}
+percentage(totalMarks);
+
+var age = +prompt("Enter your age:") 
+
+function calculationAge(age){
+    var a = 2020;
+    var b = a - age;
+    console.log(b)
+    return b;
+}
+var c = calculationAge(age)
+console.log("your birth yaer is : " + c)
+
+function operation(){
+    var a = 25;
+    var b = 55;
+    var c = 5;
+    var d = 1;
+    if(a >= c && b >= d){
+        alert("a is greater then c")
+    }
+    else{
+        alert("a is less than c")
+    }
+
+}
+operation()
