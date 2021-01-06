@@ -778,3 +778,10 @@ function operation(){
 
 }
 operation()
+
+var Submit = 22;
+function submit()
+{
+    alert("Hi!!! Usama")
+}
+// number();
