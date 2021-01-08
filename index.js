@@ -785,3 +785,35 @@ function submit()
     alert("Hi!!! Usama")
 }
 // number();
+
+
+var s = {
+    name:'Usama',
+    
+}
+console.log()
+
+var a = 1;
+console.table("<ol>")
+while(a <= 10){
+    console.log("<li>Usama Haroon</li>")
+    a = a + 1;
+}
+console.table( "</ol>")
+
+for(var i = 1; i<=10; i++){
+    if(i <= 5){
+        console.log(i+" "+'Hii')
+        continue;
+    }
+
+    console.log(i+" " +"Byee")
+}
+for(var i = 1; i<=10; i++){
+    if(i == 5){
+        console.log(i+" "+'Hii')
+        break;
+    }
+
+    console.log(i+" " +"Byee")
+}
