@@ -11,9 +11,9 @@
       crossorigin="anonymous"
     />
     <link rel="index.css" href="index.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
   <body>
-
     <!-- <div class="">
         <img src="OIP.jpeg" alt="">
         <button onclick="(open)" id="open-button">open</button>
@@ -27,7 +27,7 @@
       <ol id="namelist"></ol>
     </div> -->
 
-    <button onclick="submit()">Click</button><hr/>
+    <!-- <button onclick="submit()">Click</button><hr/>
     <button ondblclick="submit()">Double Click</button><hr/>
     <button oncontextmenu="submit()">Right Click</button><hr/>
     <button onmouseover="submit()">Mouse Hover</button><hr/>
@@ -36,7 +36,39 @@
     <button onmouseup="submit()">Mouse Up</button><hr/>
     <button onclick="submit()">Click Here event</button><hr/>
     <button onclick="submit()">Click Here event</button><hr/>
-  
+   -->
+    <div>
+      <h1>Sign Up</h1>
+
+      <input type="email" placeholder="Email" id="email-input" /><br />
+      <input type="password" placeholder="Password" id="pas-input" /><br />
+      <button onclick="signup()">Sign Up</button>
+    </div>
+    <div>
+      <h1>Log In</h1>
+      <input type="email" placeholder="Email" id="email-login" /><br />
+      <input type="password" placeholder="Password" id="pas-login" /><br />
+      <button onclick="login()">Log In</button>
+    </div>
   </body>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-auth.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBeVIGqzbxJzc5yMNkC2AHFTM9AUdc_BiM",
+      authDomain: "signup-project-89350.firebaseapp.com",
+      projectId: "signup-project-89350",
+      storageBucket: "signup-project-89350.appspot.com",
+      messagingSenderId: "694204561180",
+      appId: "1:694204561180:web:21978856232043bb70acd9",
+      measurementId: "G-8ZT42LD4EL",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.auth();
+  </script>
   <script src="index.js"></script>
 </html>

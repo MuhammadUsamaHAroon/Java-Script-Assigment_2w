@@ -564,256 +564,304 @@
 // else if(naam === 1>32 && naam === "Febrary"){
 //     alert('second month')
 // }
-console.time()
-var a=["Usama","Muntaha"];
-console.table(a);
-// console.log("<br>")
-var b = {
-    name:"Muntaha",
-    country:"Pakistan"
-};
+// console.time()
+// var a=["Usama","Taha"];
+// console.table(a);
+// // console.log("<br>")
+// var b = {
+//     name:"Haseeb",
+//     country:"Pakistan"
+// };
 
-console.table(b);
+// console.table(b);
 
-var a = 10000;
-var b = 990000;
-var c = a + b;
-console.log(c)
+// var a = 10000;
+// var b = 990000;
+// var c = a + b;
+// console.log(c)
 
-var a = 10000;
-var b = 990000;
-var c = a - b;
-console.log(c)
+// var a = 10000;
+// var b = 990000;
+// var c = a - b;
+// console.log(c)
 
-var a = 10000;
-var b = 990000;
-var c = a * b;
-console.log(c)
+// var a = 10000;
+// var b = 990000;
+// var c = a * b;
+// console.log(c)
 
-var a = 10000;
-var b = 990000;
-var c = a / b;
-console.log(c)
+// var a = 10000;
+// var b = 990000;
+// var c = a / b;
+// console.log(c)
 
-var a = 10000;
-var b = 990000;
-var c = a % b;
-console.log(c)
+// var a = 10000;
+// var b = 990000;
+// var c = a % b;
+// console.log(c)
 
-var a = 2;
-var b = 3;
-var c = a ** b;
-console.log(c)
+// var a = 2;
+// var b = 3;
+// var c = a ** b;
+// console.log(c)
 
-var a = 10;
-a++;
-console.log(a)
+// var a = 10;
+// a++;
+// console.log(a)
 
-var a = 10;
-a-- ;
-console.log(a)
+// var a = 10;
+// a-- ;
+// console.log(a)
 
-// Asssignmebt operators
+// // Asssignmebt operators
 
-var a = 10;
-var b = 20;
-a +=b;
-console.log(a)
-// console.error("This is a wrong ")
-// console.error("This is a wrong ")
-// console.error("This is a wrong ")
-// console.error("This is a wrong ")
-// console.error("This is a wrong ")
-// console.error("This is a wrong ")
-// console.error("This is a wrong ")
-// console.error("This is a wrong ")
-var a = 10;
-var b = 20;
-a -=b;
-console.log(a)
+// var a = 10;
+// var b = 20;
+// a +=b;
+// console.log(a)
+// // console.error("This is a wrong ")
+// // console.error("This is a wrong ")
+// // console.error("This is a wrong ")
+// // console.error("This is a wrong ")
+// // console.error("This is a wrong ")
+// // console.error("This is a wrong ")
+// // console.error("This is a wrong ")
+// // console.error("This is a wrong ")
+// var a = 10;
+// var b = 20;
+// a -=b;
+// console.log(a)
 
-var a = 10;
-var b = 20;
-a *=b;
-console.log(a)
+// var a = 10;
+// var b = 20;
+// a *=b;
+// console.log(a)
 
-var a = 10;
-var b = 20;
-a /=b;
-console.log(a)
+// var a = 10;
+// var b = 20;
+// a /=b;
+// console.log(a)
 
-var a = 10;
-var b = 20;
-a %=b;
-console.log(a)
-// console.warn("This is a wrong ")
-var a = 10;
-var b = 2;
-a **=b;
-console.log(a)
+// var a = 10;
+// var b = 20;
+// a %=b;
+// console.log(a)
+// // console.warn("This is a wrong ")
+// var a = 10;
+// var b = 2;
+// a **=b;
+// console.log(a)
 
-var a = 10;
-var b = 20;
-a +=b;
-console.log(a)
-console.timeEnd()
+// var a = 10;
+// var b = 20;
+// a +=b;
+// console.log(a)
+// console.timeEnd()
 
-console.log()
-console.table()
-console.error()
-console.warn()
-console.timeEnd()
-console.timeEnd()
+// console.log()
+// console.table()
+// console.error()
+// console.warn()
+// console.timeEnd()
+// console.timeEnd()
 
-var a = 60;
-var b = 50;
-console.log( (a >= b)? "this is true statement": "this is false statement")
+// var a = 60;
+// var b = 50;
+// console.log( (a >= b)? "this is true statement": "this is false statement")
 
-var day = 10;
-switch (day) {
-    case (day === 0):
+// var day = 10;
+// switch (day) {
+//     case (day === 0):
 
-        console.log("monday")
+//         console.log("monday")
     
-        break;
-        case (day === 1):
+//         break;
+//         case (day === 1):
         
-            console.log("tuesday")
+//             console.log("tuesday")
         
-            break;
-            case (day === 2):
+//             break;
+//             case (day === 2):
         
-                console.log("wednesday")
+//                 console.log("wednesday")
             
-                break;
-                case (day === 3):
+//                 break;
+//                 case (day === 3):
         
-                    console.log("thursday")
+//                     console.log("thursday")
                 
-                    break;
-                    case (day === 4):
+//                     break;
+//                     case (day === 4):
         
-                        console.log("friday")
+//                         console.log("friday")
                     
-                        break;
-                        case (day === 5):
+//                         break;
+//                         case (day === 5):
         
-                            console.log("saturday")
+//                             console.log("saturday")
                         
-                            break;
-                            case (day === 6):
+//                             break;
+//                             case (day === 6):
         
-                                console.log("sunday")
+//                                 console.log("sunday")
                             
-                                break;
+//                                 break;
 
-    default:
-        break;
-}
+//     default:
+//         break;
+// }
 
-function signUp(){
-    console.log("signUp Button")
-}
-signUp();
-function marks(a, b){
-    console.log(a % b)
-}
-marks(10, 2)
+// function signUp(){
+//     console.log("signUp Button")
+// }
+// signUp();
+// function marks(a, b){
+//     console.log(a % b)
+// }
+// marks(10, 2)
 
-function fullName(first_name, last_name){
-    console.log(first_name + last_name)
-}
-fullName("Muntaha" ," "+ "Usama");
+// function fullName(first_name, last_name){
+//     console.log(first_name + last_name)
+// }
+// fullName("Yaqoob" ," "+ "Usama");
 
-function exact(a, b){
-var can = (a + "-"+  b)
-return can;
+// function exact(a, b){
+// var can = (a + "-"+  b)
+// return can;
 
-}
-var far = exact("Farjumad", "Ranghar")
-console.log(far)
+// }
+// var far = exact("Farjumad", "Ranghar")
+// console.log(far)
 
-function fullname(a, b){
-    var name = a + " " + b;
-    return name;
-}
-var c = fullname("Usama", "Haroon");
-console.log(c)
+// function fullname(a, b){
+//     var name = a + " " + b;
+//     return name;
+// }
+// var c = fullname("Usama", "Haroon");
+// console.log(c)
 
-function subMarks(math, Chemistry, physics, english, urdu, islamiyat,){
-    var subjects = (math + Chemistry + physics + english + urdu + islamiyat);
-    return subjects;
-}
-var totalMarks = subMarks(75, 65, 84, 70, 82, 50);
-console.log(totalMarks);
+// function subMarks(math, Chemistry, physics, english, urdu, islamiyat,){
+//     var subjects = (math + Chemistry + physics + english + urdu + islamiyat);
+//     return subjects;
+// }
+// var totalMarks = subMarks(75, 65, 84, 70, 82, 50);
+// console.log(totalMarks);
 
-function percentage(total){
-    var per = total/600*100;
-    console.log(per)
-}
-percentage(totalMarks);
+// function percentage(total){
+//     var per = total/600*100;
+//     console.log(per)
+// }
+// percentage(totalMarks);
 
-var age = +prompt("Enter your age:") 
+// var age = +prompt("Enter your age:") 
 
-function calculationAge(age){
-    var a = 2020;
-    var b = a - age;
-    console.log(b)
-    return b;
-}
-var c = calculationAge(age)
-console.log("your birth yaer is : " + c)
+// function calculationAge(age){
+//     var a = 2020;
+//     var b = a - age;
+//     console.log(b)
+//     return b;
+// }
+// var c = calculationAge(age)
+// console.log("your birth yaer is : " + c)
 
-function operation(){
-    var a = 25;
-    var b = 55;
-    var c = 5;
-    var d = 1;
-    if(a >= c && b >= d){
-        alert("a is greater then c")
-    }
-    else{
-        alert("a is less than c")
-    }
+// function operation(){
+//     var a = 25;
+//     var b = 55;
+//     var c = 5;
+//     var d = 1;
+//     if(a >= c && b >= d){
+//         alert("a is greater then c")
+//     }
+//     else{
+//         alert("a is less than c")
+//     }
 
-}
-operation()
+// }
+// operation()
 
-var Submit = 22;
-function submit()
-{
-    alert("Hi!!! Usama")
-}
-// number();
+// var Submit = 22;
+// function submit()
+// {
+//     alert("Hi!!! Usama")
+// }
+// // number();
 
 
-var s = {
-    name:'Usama',
+// var s = {
+//     name:'Usama',
     
+// }
+// console.log()
+
+// var a = 1;
+// console.table("<ol>")
+// while(a <= 10){
+//     console.log("<li>Usama Haroon</li>")
+//     a = a + 1;
+// }
+// console.table( "</ol>")
+
+// for(var i = 1; i<=10; i++){
+//     if(i <= 5){
+//         console.log(i+" "+'Hii')
+//         continue;
+//     }
+
+//     console.log(i+" " +"Byee")
+// }
+// for(var i = 1; i<=10; i++){
+//     if(i == 5){
+//         console.log(i+" "+'Hii')
+//         break;
+//     }
+
+//     console.log(i+" " +"Byee")
+// }
+function signup(){
+    var email = document.getElementById("email-input")
+    var emailvalue = email.value
+    console.log(emailvalue)
+    var password = document.getElementById("pas-input")
+    var passwordvalue = password.value
+    console.log(passwordvalue)
+    document.getElementById("email-input").value = ""
+    document.getElementById("pas-input").value = ""
+    
+    
+    firebase.auth().createUserWithEmailAndPassword(emailvalue, passwordvalue)
+  .then((user) => {
+    alert("Sign Up Successfully")
+  })
+  .catch((error) => {
+    var errorCode = error.code;
+    var errorMessage = error.message;
+    alert(errorMessage)
+  });
+
+
 }
-console.log()
 
-var a = 1;
-console.table("<ol>")
-while(a <= 10){
-    console.log("<li>Usama Haroon</li>")
-    a = a + 1;
-}
-console.table( "</ol>")
+function login(){
+    var email = document.getElementById("email-login")
+    var password = document.getElementById("pas-login")
+    var email_value = email.value
+    // console.log(emailvalue)
+    var password_value = password.value
+    // console.log(passwordvalue)
+     document.getElementById("email-login").value = ""
+     document.getElementById("pas-login").value = ""
+    
+    firebase.auth().signInWithEmailAndPassword(email_value, password_value)
+    .then((user) => {
+        swal("Log In Successfully!","!", "success");
+    })
+    .catch((error) => {
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      alert(errorMessage)
+    });
+    
+    
 
-for(var i = 1; i<=10; i++){
-    if(i <= 5){
-        console.log(i+" "+'Hii')
-        continue;
-    }
 
-    console.log(i+" " +"Byee")
-}
-for(var i = 1; i<=10; i++){
-    if(i == 5){
-        console.log(i+" "+'Hii')
-        break;
-    }
-
-    console.log(i+" " +"Byee")
 }
